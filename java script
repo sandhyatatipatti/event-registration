@@ -1,0 +1,13 @@
+let nameEle = document.getElementById("name");
+let collegeNameEle = document.getElementById("collegeName");
+let genderEle = document.getElementById("gender");
+let emailEle = document.getElementById("email");
+let phoneEle = document.getElementById("phone");
+let courseEle = document.getElementById("course");
+let formEle = document.getElementById("registerForm");
+
+formEle.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    alert("Registration successful!");
+});
